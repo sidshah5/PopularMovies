@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="movieapi">http://api.themoviedb.org/3/discover/movie</string>
+    <string name="image_baseurl">http://image.tmdb.org/t/p/w370/</string>
+    <string name="api_key"></string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="sortbypreferences">
+        <item>Popularity</item>
+        <item>Rating</item>
+    </string-array>
+
+    <string-array name="sortbypreferencesvalue">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </string-array>
+
+    <string name="sortby_preferencekey">sortby</string>
+    <string name="sortby_defaultvalue">popularity.desc</string>
+</resources>
